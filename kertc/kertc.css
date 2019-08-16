@@ -1,0 +1,224 @@
+body{
+	margin: 0px;
+	background-color: #f0f2f4; /*e2e6e9,d3d9de*/
+	display: block;
+	justify-content: center!important;
+	font-family:'Raleway',sans-serif;
+}
+
+header{
+	display: inline-flex;
+	margin: 1px;
+	width: 100%;
+	height: 60px;
+	border: 1px solid transparent;
+	background: #fff;
+	box-shadow: 0px 1px 4px lightgrey;
+}
+
+#logo{
+	width: 110px;
+	height: 40px;
+	margin: 10px;
+}
+
+#username{
+	margin-top: 35%;
+	margin-bottom: 35%;
+	min-width:75%;
+	display: flex;
+	justify-content: right;
+}
+
+.form-control{
+	min-width: 240px!important;
+	max-width: 350px!important;
+	padding: 24px!important;
+	margin: 30px!important;
+	border: solid 1px ;
+	border-radius: 3px;
+	border-color: #d0d5da;
+	background-color: white;
+}
+
+.inp{
+	padding: 10px!important;
+	border: 1px solid #d1d5da;
+	border-radius: 3px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.inpStops{
+	padding: 4px!important;
+	margin: 2px; 
+	border: 1px solid #d1d5da;
+	border-radius: 3px;
+	width: 35px;
+	font-variant-caps: all-small-caps;
+	font-size: 18px!important;
+}
+
+.inpDurtime{
+	padding-left: 5px!important;
+	margin: 2px;
+	margin-top: 12px;
+	height: 10px; 
+	border:0px;
+	border-bottom: 1px solid #737373;
+	width: 35px;
+	font-size: 12px!important;
+}
+
+.name{
+	margin-bottom: 5px;
+	font-size: 14px! important;
+	color: #586069!important;
+}
+
+#buttonsForNav{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.navButton{
+	background-color: white;
+	border:1px solid;
+	border-color:#ff4646;
+	color: #ff4646;
+	margin: 5px!important;
+	font-size: 90%;
+	padding: 3px;
+}
+
+.but{
+	border: 0px! important;
+	width: 100%! important;
+	min-height: 46px! important;
+	padding: 20px! important;
+	background-color: #f2ff73! important;
+	border-radius: 3px! important;
+	cursor: pointer! important;
+	color: white! important;
+}
+
+#loginButton{
+	padding-left: 12px;
+	padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 0px!important;
+    position: relative;
+    top:7px;
+    left:30%;
+}
+#fp{
+	background-color: beige;
+	margin-top: 20px!important;
+	margin-bottom: 20px!important;
+	font-size: 14px! important;
+	text-align: center;
+	position: absolute;
+	top: 400px;
+}
+
+#link{
+	color: #075ca0!important;
+	text-decoration-line: none;
+}
+
+#table{
+	min-width: 350px!important;
+	max-width: 400px!important;
+	max-height: 400px!important;
+	overflow-y: scroll;
+	border-radius: 3px;
+	border-color: #d0d5da;
+	background-color: white;
+	text-align: center;
+	margin-top:30px;
+}
+
+#tableBuses{
+	margin-top: 30px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: solid 0px ;
+	text-align: center;
+}
+
+#tableRoutes{
+	background-color: white;
+	margin: 2%!important;
+	margin-top: 40px;
+	max-height: 400px;
+	overflow-x: scroll;
+	border:1px solid;
+	width: 96%;
+}
+
+table{
+	width: 100%;
+	font-size: 12px! important;
+	font-variant-caps: all-petite-caps;
+	border-collapse: collapse;
+}
+tr,td{
+	height: 30px;
+	min-width: 30px;
+	max-width: 40px;
+}
+tr:nth-child(even) {background: white;}
+tr:nth-child(odd) {background: lightgrey;}
+th{
+	height: 30px;
+	background: #ff4646;
+	color: white;
+}
+
+#rout{
+	font-size: 13px! important;
+	background: white;
+}
+
+#bt{
+	height: 20px;
+	width: 60px;
+	border: 0px;
+	background-color: #ff4646;
+	color: white;
+	border-radius: 10px;
+}
+
+#bno{
+	margin: 10px;
+	background-color:#f2ff73;
+	border:0px;
+}
+
+.butanl{
+	min-width: 100px!important;
+	border: 0px! important;
+	min-height: 46px! important;
+	padding: 5px! important;
+	background-color: #ff4646! important;
+	cursor: pointer! important;
+	color: white! important;
+}
+#wrap1{
+	display: flex;
+	justify-content: center;
+}
+
+#wrap2{
+	display: grid;
+	justify-content: center;
+}
+
+.popup{
+	justify-content: right;
+	margin-top: 5px;
+	font-size: 10px! important;
+}

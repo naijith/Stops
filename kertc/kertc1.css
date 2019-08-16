@@ -1,0 +1,149 @@
+header{
+	display: flex;
+	margin: 1px;
+	width: 100%;
+	height: 60px;
+	border: 1px solid transparent;
+	background: #fff;
+	box-shadow: 0px 1px 4px lightgrey;
+}
+
+#logo{
+	width: 110px;
+	height: 40px;
+	margin: 10px;
+}
+
+body{
+	margin:0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+#container{
+	margin-right: 30px;
+	margin-left: 30px;
+	min-width: 310px;
+}
+
+#buts{
+	background-color: white;
+	border:1px solid;
+	border-color:#ff4646;
+	color: #ff4646;
+	margin: 5px!important;
+}
+
+#butd{
+	border:1px solid white;
+	background-color: #ff4646;
+	color: white;
+	padding: 5px;
+	margin: 1px;
+	font-size: 12px;
+	transition: 1s;
+}
+
+#butd:hover{
+	border:1px solid;
+	border-color: red;
+	background-color: white;
+	color: red;
+	padding: 5px;
+	margin: 1px;
+	font-size: 12px;
+}
+
+#divbutd{
+	width: 100%;
+	display: flex;
+	justify-content: right;
+}
+
+#formsearch{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: right;
+}
+
+#mainTable{
+	display: grid;
+}
+
+.tab{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1px;
+	border:1px solid;
+	border-color: lightgrey;
+	margin-bottom: 2px;
+}
+
+#tab1{
+	background-color: lightgrey;
+	margin-bottom: 0px;
+	padding: 3px;
+}
+
+.tabSDA{
+	display: flex;
+	flex-wrap: wrap;
+	background-color:#ff4646;
+	color: white;
+	padding: 5px;
+	font-size: 15px;
+	font-variant-caps: all-petite-caps;
+}
+
+.tabColumn{
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 80px;
+	font-size: 14px;
+}
+.tabVia{
+  margin-right: 3px;
+  margin-left: 3px;
+  font-size: 14px;
+  color: grey;
+}
+
+.tabPlace{
+	color: grey;
+	font-size: 14px;
+}
+
+.tabType{
+	padding: 1px;
+	font-size: 14px;
+	color: #33d6ff;
+}
+
+.durations{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	border:1px solid;
+	border-color: lightgrey;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+tr:nth-child(even) {background: #f9f5e9;}
+tr:nth-child(odd) {background: white;}
+
+td,th{
+	padding:5px;
+}
+
+table{
+	width:100%;
+	font-family: 'Roboto Condensed',sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #403f3f;
+	border-collapse: collapse;
+}
